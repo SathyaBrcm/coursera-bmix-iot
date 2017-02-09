@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: coursera-bmix-iot
+  host: coursera-bmix-iot
+  disk_quota: 1024M
+  services:
+  - coursera-bmix-iot-cloudantNoSQLDB
+  - coursera-bmix-iot-iotf-service
